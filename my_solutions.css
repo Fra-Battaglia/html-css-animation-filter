@@ -60,3 +60,17 @@
 
 	100% {rotate: 360deg;}
 }
+
+.ex-11-icon:hover {
+	animation-name: spin-270;
+	animation-duration: 1s ;
+	animation-timing-function: ease-in;
+}
+
+@keyframes spin-270 {
+	0% {rotate: 0deg;}
+
+	75% {rotate: 270deg;}
+
+	100% {rotate: 0deg;}
+}
