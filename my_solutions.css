@@ -1,4 +1,4 @@
-.ex-1-square, .ex-2-square, .ex-3-square, .ex-4-square, .ex-5-square {
+.ex-1-square, .ex-2-square, .ex-3-square, .ex-4-square, .ex-5-square, .ex-7-img {
 	transition: 1s;
 	transition-timing-function: ease-in;
 }
@@ -31,4 +31,8 @@
 
 .ex-6-img:hover {
 	filter: grayscale(1);
+}
+
+.ex-7-img:hover {
+	filter: hue-rotate(90deg) sepia(0.3);
 }
