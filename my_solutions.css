@@ -1,25 +1,20 @@
-.ex-1-square {
+.ex-1-square, .ex-2-square, .ex-3-square, .ex-4-square {
 	transition: 1s;
+	transition-timing-function: ease-in;
 }
 
 .ex-1-square:hover{
 	background-color: red;
 }
 
-.ex-2-square {
-	transition: 2s;
-	transition-timing-function: ease-in;
-}
-
 .ex-2-square:active {
 	width: 100%;
 }
 
-.ex-3-square {
-	transition: 1s;
-	transition-timing-function: ease-in;
-}
-
 .ex-3-square:hover {
 	border-radius: 50%;
+}
+
+.ex-4-square:hover{
+	background-color: transparent;
 }
