@@ -46,6 +46,7 @@
 	filter: hue-rotate(180deg) grayscale(0.3);
 	border-radius: 25px;
 	width: 500px;
+	margin: 0;
 }
 
 .ex-10-icon {
